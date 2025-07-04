@@ -2,7 +2,7 @@ import React from "react";
 import { FaHeart, FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Poor from "../assets/poor.jpg";
-import AboutPage from "./Aboutpage";
+import AboutPage from "../component/AboutPage"
 import OurTeam from "./OurTeam";
 import Categorycard from "./Categorycard";
 import Media from "./Media";

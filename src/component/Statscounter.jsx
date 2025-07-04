@@ -62,7 +62,6 @@ const StatBox = ({ label, value, start }) => {
 const StatsCounter = () => {
   return (
     <div className="relative mt-6 mb-8 px-4 py-4 bg-gradient-to-r from-orange-500 to-gray-800 rounded-full shadow-2xl max-w-4xl mx-auto flex flex-wrap justify-center items-center gap-4 sm:gap-6 overflow-hidden">
-      {/* Optional Background Pattern */}
       <div className="absolute inset-0 opacity-10 bg-[url('/bg-pattern.svg')] bg-cover bg-center pointer-events-none rounded-full" />
 
       {stats.map((item, index) => (

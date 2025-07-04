@@ -66,10 +66,10 @@ const VolunteerPage = () => {
 
         {/* Right Section - Content */}
         <div className="md:w-1/2 p-6 md:p-10">
-          <p className="text-3xl text-orange-600 font-medium mb-2 sevillana-regular">
+          <p className="text-3xl inter text-orange-600 font-medium mb-2 sevillana-regular">
             ❤️ Join us
           </p>
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4 prata-regular leading-snug">
+          <h2 className="text-3xl md:text-4xl playfair font-bold text-gray-800 mb-4 prata-regular leading-snug">
             Why We Need You <br className="hidden md:block" />
             Become a Volunteer
           </h2>

@@ -83,9 +83,11 @@ const OurTeam = () => {
           </div>
 
           <div className="pr-10 sm:pr-20">
-            <button className="bg-orange-500 px-6 py-3 inter rounded-full text-white text-lg font-semibold hover:bg-white hover:text-orange-500 border-2 border-orange-500 transition-all prata-regular">
-              Join With Us
-            </button>
+            <NavLink to="/join" className="w-fit">
+              <button className="border-2 inter border-orange-500 bg-orange-500 text-white font-semibold px-5 py-2 rounded-full transition hover:bg-transparent hover:text-orange-500">
+                Join Us
+              </button>
+            </NavLink>
           </div>
         </motion.div>
 
